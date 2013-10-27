@@ -223,7 +223,7 @@ pl:
 
       change_username:
         title: "Zmiana nazwy użytkownika"
-        confirm: "Jeśli zmienisz nazwę użytkownika, cytowania twoich postów i odniesienia @nazwa zostaną odłączone. Czy masz ABSOLUTNĄ pewność, że tego chcesz?"
+        confirm: "Jeśli zmienisz nazwę użytkownika, cytowania twoich postów i odwołania przez @nazwę_użytkownika zostaną rozłączone. Czy masz ABSOLUTNĄ pewność, że tego chcesz?"
         taken: "Niestety, ale ta nazwa jest juz zajęta."
         error: "Wystąpił błąd w czasie zmiany nazwy użytkownika."
         invalid: "Ta nazwa użytkownika jest niewłaściwa. Powinna składać się tylko z cyfr i liter."
@@ -253,12 +253,12 @@ pl:
 
       name:
         title: "Nazwa pełna"
-        instructions: "Dłuższa wesja twojej nazwy; nie musi być unikalna. Używana jako kolejna odpowiadająca @nazwie i widoczna tylko na twojej stronie użytkownika."
+        instructions: "Dłuższa wesja twojej nazwy, nie musi być unikalna. Będzie widoczna tylko na twojej stronie użytkownika."
         too_short: "Twoja nazwa jest za krótka."
         ok: "Twoja nazwa jest w porządku."
       username:
         title: "Nazwa użytkownika"
-        instructions: "Musi być unikalna, bez spacji. Ludzie mogą odnosić się do ciebie jako @nazwa."
+        instructions: "Musi być unikalna, bez spacji. Będzie można odwoływać się do ciebie: @nazwa_użytkownika."
         short_instructions: "Ludzie mogą odnosić się do ciebie jako @{{username}}."
         available: "Twoja nazwa uzytkownika jest dostępna."
         global_match: "Adres email pasuje do zarejestrowanej nazwy użytkownika."
@@ -267,66 +267,66 @@ pl:
         too_short: "Twoja nazwa uzytkownika jest za krótka."
         too_long: "Twoja nazwa uzytkownika jest za długa."
         checking: "Sprawdzanie dostępności nazwy użytkownika..."
-        enter_email: 'Nazwa użytkownika znaleziona. Wpisz odpowiadający adres email.'
+        enter_email: 'Nazwa użytkownika znaleziona. Wpisz pasujący adres email.'
 
       password_confirmation:
         title: "Powtórzenie hasła"
 
-      last_posted: "Last Post"
-      last_emailed: "Last Emailed"
-      last_seen: "Last Seen"
-      created: "Created At"
-      log_out: "Log Out"
-      website: "Web Site"
+      last_posted: "Ostatnio napisany post"
+      last_emailed: "Ostatnio wysłany email"
+      last_seen: "Ostatnio widoczny"
+      created: "Utworzony"
+      log_out: "Wylogowanie"
+      website: "Strona"
       email_settings: "Email"
       email_digests:
-        title: "When I don't visit the site, send me an email digest of what's new"
-        daily: "daily"
-        weekly: "weekly"
-        bi_weekly: "every two weeks"
+        title: "Kiedy nie odwiedzam strony, wysyłaj mi email z zestawieniem nowych wpisów"
+        daily: "codziennie"
+        weekly: "co tydzień"
+        bi_weekly: "co dwa tygodnie"
 
-      email_direct: "Receive an email when someone quotes you, replies to your post, or mentions your @username"
-      email_private_messages: "Receive an email when someone sends you a private message"
-      email_always: "Receive email notifications and email digests even if I am active on the forum"
+      email_direct: "Otrzymywanie emaili, kiedy ktoś cytuje ciebie, odpowiada na twój post, wymienia twoją @nazwę_użytkownika"
+      email_private_messages: "Otrzymywanie emaili, kiedy ktoś wysyła ci prywatną wiadomość"
+      email_always: "Otrzymywanie przez email powiadomień i zestawień nawet jeśli jesteś na forum"
 
-      other_settings: "Other"
+      other_settings: "Inne"
 
       new_topic_duration:
-        label: "Consider topics new when"
-        not_viewed: "I haven't viewed them yet"
-        last_here: "they were posted since I was here last"
+        label: "Uznawaj tematy jako nowe, kiedy"
+        not_viewed: "jeszcze ich nie oglądałem"
+        last_here: "pojawiły się po twojej ostatniej obecności tutaj"
         after_n_days:
-          one: "they were posted in the last day"
-          other: "they were posted in the last {{count}} days"
+          one: "pojawiły się w ciągu ostatniego dnia"
+          other: "pojawiły się w ciągu ostatnich {{count}} dni"
         after_n_weeks:
-          one: "they were posted in the last week"
-          other: "they were posted in the last {{count}} week"
+          one: "pojawiły się w ciągu ostatniego tygodnia"
+          other: "pojawiły się w ciągu ostatnich {{count}} tygodni"
 
-      auto_track_topics: "Automatically track topics I enter"
+      auto_track_topics: "Automatycznie śledź tematy, do których wchodzę"
       auto_track_options:
-        never: "never"
-        always: "always"
+        never: "nigdy"
+        always: "zawsze"
         after_n_seconds:
-          one: "after 1 second"
-          other: "after {{count}} seconds"
+          one: "po 1 sekundzie"
+          other: "po {{count}} sekundach"
         after_n_minutes:
-          one: "after 1 minute"
-          other: "after {{count}} minutes"
+          one: "po 1 minucie"
+          other: "po {{count}} minutach"
 
       invited:
-        title: "Invites"
-        user: "Invited User"
-        none: "{{username}} hasn't invited any users to the site."
-        redeemed: "Redeemed Invites"
-        redeemed_at: "Redeemed At"
-        pending: "Pending Invites"
-        topics_entered: "Topics Entered"
-        posts_read_count: "Posts Read"
-        rescind: "Remove Invitation"
-        rescinded: "Invite removed"
-        time_read: "Read Time"
-        days_visited: "Days Visited"
-        account_age_days: "Account age in days"
+        title: "Zaproszenia"
+        user: "Zaproszony użytkownik"
+        none: "{{username}} nie zaprosił żadnych użytkowników na stronę."
+        redeemed: "Zaproszenia wykorzystane"
+        redeemed_at: "Wykorzystane"
+        pending: "Zaproszenia oczekujące"
+        topics_entered: "Wprowadzone tematy"
+        posts_read_count: "Przeczytane posty"
+        rescind: "Usuń zaproszenie"
+        rescinded: "Zaproszenie usunięte"
+        time_read: "Czas czytania"
+        days_visited: "Dni przeglądania"
+        account_age_days: "Wiek konta w dniach"
 
       password:
         title: "Password"
