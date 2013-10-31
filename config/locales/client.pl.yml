@@ -329,175 +329,175 @@ pl:
         account_age_days: "Wiek konta w dniach"
 
       password:
-        title: "Password"
-        too_short: "Your password is too short."
-        ok: "Your password looks good."
+        title: "Hasło"
+        too_short: "Twoje hasło jest za krótkie."
+        ok: "Twoje hasło jest w porządku."
 
       ip_address:
-        title: "Last IP Address"
+        title: "Ostatni adres IP"
       avatar:
         title: "Avatar"
       title:
-        title: "Title"
+        title: "Tytuł"
 
       filters:
-        all: "All"
+        all: "Wszystko"
 
       stream:
-        posted_by: "Posted by"
-        sent_by: "Sent by"
-        private_message: "private message"
-        the_topic: "the topic"
+        posted_by: "Umieszczone przez"
+        sent_by: "Wysłane przez"
+        private_message: "wiadomość prywatna"
+        the_topic: "temat"
 
-    loading: "Loading..."
-    close: "Close"
-    learn_more: "learn more..."
+    loading: "Ładowanie..."
+    close: "Zamknij"
+    learn_more: "poznaj więcej..."
 
-    year: 'year'
-    year_desc: 'topics posted in the last 365 days'
-    month: 'month'
-    month_desc: 'topics posted in the last 30 days'
-    week: 'week'
-    week_desc: 'topics posted in the last 7 days'
+    year: 'rok'
+    year_desc: 'tematy założone w ciągu ostatnich 365 dni'
+    month: 'miesiąc'
+    month_desc: 'tematy założone w ciągu ostatnich 30 dni'
+    week: 'tydzień'
+    week_desc: 'tematy założone w ciągu ostatnich 7 dni'
 
-    first_post: First post
-    mute: Mute
-    unmute: Unmute
-    last_post: Last post
+    first_post: Pierwszy post
+    mute: Wycisz
+    unmute: Wyłącz wyciszenie
+    last_post: Ostatni post
 
     best_of:
       title: "Best Of"
-      enabled_description: "You're viewing only the best posts in this topic. To see all posts again, click below."
-      description: "There are <b>{{count}}</b> posts in this topic. That's a lot! Would you like to save time by showing only the best posts?"
-      enable: 'Switch to "Best Of" view'
-      disable: 'Cancel "Best Of"'
+      enabled_description: "Widzisz tylko najlesze posty w tym temacie. Żeby zobaczyć wszystkie, kliknij poniżej."
+      description: "Jest <b>{{count}}</b> postów w tym temacie topic. To dużo! Czy chcesz zaoszczędzić czas oglądajac tylko najlepsze?"
+      enable: 'Przełącz na widok "Najlepsze"'
+      disable: 'Wyłącz widok "Najlepsze"'
 
     private_message_info:
-      title: "Private Message"
-      invite: "Invite Others..."
-      remove_allowed_user: "Do you really want to remove {{name}} from this private message?"
+      title: "Wiadomość prywatna"
+      invite: "Zaproś innych..."
+      remove_allowed_user: "Czy chcesz usunąć {{name}} z tej prywatnej wiadomości?"
 
     email: 'Email'
-    username: 'Username'
-    last_seen: 'Last Seen'
-    created: 'Created'
-    trust_level: 'Trust Level'
+    username: 'Nazwa użytkownika'
+    last_seen: 'Ostatnio widziany'
+    created: 'Utworzony'
+    trust_level: 'Poziom zaufania'
 
     create_account:
-      title: "Create Account"
-      action: "Create one now!"
-      invite: "Don't have an account yet?"
-      failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
+      title: "Utworzenie konta"
+      action: "Utwórz je teraz!"
+      invite: "Czy nie masz jeszcze konta?"
+      failed: "Nie udało się. Zapewne ten adres email jest już zarejestrowany. Spróbuj użyć odnośnik od zapomnienia hasła"
 
     forgot_password:
-      title: "Forgot Password"
-      action: "I forgot my password"
-      invite: "Enter your username or email address, and we'll send you a password reset email."
-      reset: "Reset Password"
-      complete: "If an account matches that username or email address, you should receive an email with instructions on how to reset your password shortly."
+      title: "Zapomnienie hasła"
+      action: "Zapomniałem moje hasło"
+      invite: "Wpisz swoją nazwę użytkownika albo adres email. Wyślemy ci email resetujący hasło."
+      reset: "Resetuj hasło"
+      complete: "Jeśli konto pasuje do tej nazwy użytkownika lub adresu email, niebawem powinieneś dostać email z instrukcją, jak zresetować twoje hasło."
 
     login:
-      title: "Log In"
+      title: "Logowanie"
       username: "Login"
       password: "Password"
-      email_placeholder: "email address or username"
-      error: "Unknown error"
-      reset_password: 'Reset Password'
-      logging_in: "Logging In..."
-      or: "Or"
-      authenticating: "Authenticating..."
-      awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
-      awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
-      requires_invite: "Sorry, access to this forum is by invite only."
-      not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
-      resend_activation_email: "Click here to send the activation email again."
-      sent_activation_email_again: "We sent another activation email to you at <b>{{currentEmail}}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
+      email_placeholder: "Adres email lub nazwa użytkownika"
+      error: "Błąd nieznany"
+      reset_password: 'Resetowanie hasła'
+      logging_in: "Logowanie..."
+      or: "Lub"
+      authenticating: "Uwierzytelnianie..."
+      awaiting_confirmation: "Twoje konto oczekuje aktywacji. Użyj odnośnik od zapomnienia hasła, żeby wygenerować kolejny email aktywacyjny."
+      awaiting_approval: "Twoje konto nie zostało jeszcze zatwierdzone. Otrzymasz stosowny email, kiedy zostanie zatwierdzone."
+      requires_invite: "Przepraszamy, dostęp do tego forum jest tylko przez zaproszenie."
+      not_activated: "Nie możesz się jeszcze zalogować. Wcześniej wysłaliśmy email aktywacyjny do ciebie na <b>{{sentTo}}</b>. Proszę, postępuj według instrukcji zawartych w tym emailu w celu uaktywnienia konta."
+      resend_activation_email: "Kliknij tu, żeby ponownie wysłać email aktywacyjny."
+      sent_activation_email_again: "Wysłaliśmy kolejny email aktywacyjny do ciebie na <b>{{currentEmail}}</b>. To może potrwać kilka minut do dotarcia. Sprawdź również swój folder ze spamem."
       google:
-        title: "with Google"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+        title: "przez Google"
+        message: "Uwierzytelnianie przez Google (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       twitter:
-        title: "with Twitter"
-        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
+        title: "przez Twitter"
+        message: "Uwierzytelnianie przez Twitter (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       facebook:
-        title: "with Facebook"
-        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
+        title: "przez Facebook"
+        message: "Uwierzytelnianie przez Facebook (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       cas:
-        title: "Log In with CAS"
-        message: "Authenticating with CAS (make sure pop up blockers are not enabled)"
+        title: "przez CAS"
+        message: "Uwierzytelnianie przez CAS (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       yahoo:
-        title: "with Yahoo"
-        message: "Authenticating with Yahoo (make sure pop up blockers are not enabled)"
+        title: "przez Yahoo"
+        message: "Uwierzytelnianie przez Yahoo (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       github:
-        title: "with GitHub"
-        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
+        title: "przez GitHub"
+        message: "Uwierzytelnianie przez GitHub (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       persona:
-        title: "with Persona"
-        message: "Authenticating with Mozilla Persona (make sure pop up blockers are not enabled)"
+        title: "przez Persona"
+        message: "Uwierzytelnianie przez Mozilla Persona (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
 
     composer:
-      posting_not_on_topic: "Which topic do you want to reply to?"
-      saving_draft_tip: "saving"
-      saved_draft_tip: "saved"
-      saved_local_draft_tip: "saved locally"
-      similar_topics: "Your topic is similar to..."
-      drafts_offline: "drafts offline"
+      posting_not_on_topic: "Na który temat chcesz odpowiadać?"
+      saving_draft_tip: "zapisywanie"
+      saved_draft_tip: "zapisane"
+      saved_local_draft_tip: "zapisane lokalnie"
+      similar_topics: "Twój temat jest podobny do..."
+      drafts_offline: "wersja robocza offline"
 
       min_length:
-        need_more_for_title: "{{n}} to go for the title"
-        need_more_for_reply: "{{n}} to go for the post"
+        need_more_for_title: "{{n}} brak dla tytułu"
+        need_more_for_reply: "{{n}} brak dla postu"
 
       error:
-        title_missing: "Title is required."
-        title_too_short: "Title must be at least {{min}} characters long."
-        title_too_long: "Title must be less than {{max}} characters long."
-        post_missing: "Post can't be empty."
-        post_length: "Post must be at least {{min}} characters long."
-        category_missing: "You must choose a category."
+        title_missing: "Tytuł jest wymagany."
+        title_too_short: "Tytuł musi mieć przynajmniej {{min}} znaków."
+        title_too_long: "Title musi mieć mniej niż {{max}} znaków."
+        post_missing: "Post nie może być pusty."
+        post_length: "Post musi mieć przynajmniej {{min}} znaków."
+        category_missing: "Musisz wybrać kategorię."
 
-      save_edit: "Save Edit"
-      reply_original: "Reply on Original Topic"
-      reply_here: "Reply Here"
-      reply: "Reply"
-      cancel: "Cancel"
-      create_topic: "Create Topic"
-      create_pm: "Create Private Message"
+      save_edit: "Zapisz edytowane"
+      reply_original: "Odpowiedz na pierwotny temat"
+      reply_here: "Odpowiedz tutaj"
+      reply: "Odpowiedz"
+      cancel: "Usuń"
+      create_topic: "Utwórz temat"
+      create_pm: "Utwórz wiadomość prywatną"
 
-      users_placeholder: "Add a user"
-      title_placeholder: "Type your title here. What is this discussion about in one brief sentence?"
-      reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
-      view_new_post: "View your new post."
-      saving: "Saving..."
-      saved: "Saved!"
-      saved_draft: "You have a post draft in progress. Click anywhere in this box to resume editing."
-      uploading: "Uploading..."
-      show_preview: 'show preview &raquo;'
-      hide_preview: '&laquo; hide preview'
+      users_placeholder: "Dodaj użytkownika"
+      title_placeholder: "Tutaj napisz swój tytuł, czego ma dotyczyć dyskusja w krótkim zdaniu."
+      reply_placeholder: "Pisz tutaj. Do formatowania możesz używać Markdown albo BBCode. Żeby wysłać obraz, przeciągnij lub wklej go."
+      view_new_post: "Zobacz swój nowy post."
+      saving: "Zapisywanie..."
+      saved: "Zapisane!"
+      saved_draft: "Masz wersję roboczą postu. Kliknij gdziekolwiek na tym polu, żeby wznowić edytowanie."
+      uploading: "Wysyłanie..."
+      show_preview: 'pokaż podgląd &raquo;'
+      hide_preview: '&laquo; ukryj podgląd'
 
-      quote_post_title: "Quote whole post"
-      bold_title: "Strong"
-      bold_text: "strong text"
-      italic_title: "Emphasis"
-      italic_text: "emphasized text"
-      link_title: "Hyperlink"
-      link_description: "enter link description here"
-      link_dialog_title: "Insert Hyperlink"
-      link_optional_text: "optional title"
-      quote_title: "Blockquote"
-      quote_text: "Blockquote"
-      code_title: "Preformatted text"
-      code_text: "enter preformatted text here"
+      quote_post_title: "Cytuj cały post"
+      bold_title: "Pogrubienie"
+      bold_text: "trkst pogrubiony"
+      italic_title: "Kursywa"
+      italic_text: "tekst pochylony"
+      link_title: "Hiperłącze"
+      link_description: "tutaj wpisz opis odnośnika"
+      link_dialog_title: "Umieść hiperłącze"
+      link_optional_text: "tytuł opcjonalny"
+      quote_title: "Cytat"
+      quote_text: "Cytat"
+      code_title: "Tekst sformatowany"
+      code_text: "tutaj wpisz teks sformatowany"
       upload_title: "Upload"
-      upload_description: "enter upload description here"
-      olist_title: "Numbered List"
-      ulist_title: "Bulleted List"
-      list_item: "List item"
-      heading_title: "Heading"
-      heading_text: "Heading"
-      hr_title: "Horizontal Rule"
-      undo_title: "Undo"
-      redo_title: "Redo"
-      help: "Markdown Editing Help"
-      toggler: "hide or show the composer panel"
+      upload_description: "tutaj wpisz opis uploadu"
+      olist_title: "Lista numerowana"
+      ulist_title: "Lista punktowana"
+      list_item: "Element listy"
+      heading_title: "Nagłówek"
+      heading_text: "Nagłówek"
+      hr_title: "Linia"
+      undo_title: "Cofnięcie"
+      redo_title: "Ponowne wykonanie"
+      help: "Pomoc edytowania Markdown"
+      toggler: "ukryj lub pokaż panel"
 
       admin_options_title: "Optional staff settings for this topic"
       auto_close_label: "Auto-close topic after:"
