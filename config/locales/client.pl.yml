@@ -113,391 +113,391 @@ pl:
       other: "{{count}} znaków"
 
     in_n_seconds:
-      one: "in 1 second"
-      other: "in {{count}} seconds"
+      one: "w ciągu 1 sekundy"
+      other: "w ciągu {{count}} sekund"
     in_n_minutes:
-      one: "in 1 minute"
-      other: "in {{count}} minutes"
+      one: "w ciągu 1 minuty"
+      other: "w ciągu {{count}} minut"
     in_n_hours:
-      one: "in 1 hour"
-      other: "in {{count}} hours"
+      one: "w ciągu 1 godziny"
+      other: "w ciągu {{count}} godzin"
     in_n_days:
-      one: "in 1 day"
-      other: "in {{count}} days"
+      one: "w ciągu 1 dnia"
+      other: "w ciągu {{count}} dni"
 
     suggested_topics:
-      title: "Suggested Topics"
+      title: "Proponowane tematy "
 
     bookmarks:
-      not_logged_in: "Sorry, you must be logged in to bookmark posts."
-      created: "You've bookmarked this post."
-      not_bookmarked: "You've read this post; click to bookmark it."
-      last_read: "This is the last post you've read; click to bookmark it."
+      not_logged_in: "Przepraszmy, musisz być zalogowany, żeby zaznaczać posty."
+      created: "Zaznaczyłeś ten post."
+      not_bookmarked: "Przeczytałeś ten post; kliknij, żeby zaznaczyć go."
+      last_read: "To jest ostatni post, który przeczytałeś; kliknij, żeby zaznaczyć go."
 
-    new_topics_inserted: "{{count}} new topics."
-    show_new_topics: "Click to show."
-    preview: "preview"
-    cancel: "cancel"
+    new_topics_inserted: "{{count}} nowych tematów."
+    show_new_topics: "Kliknij, żeby zobaczyć."
+    preview: "podgląd"
+    cancel: "anuluj"
 
-    save: "Save Changes"
-    saving: "Saving..."
-    saved: "Saved!"
+    save: "Zapisz zmiany"
+    saving: "Zapisywanie..."
+    saved: "Zapisane!"
 
-    upload: "Upload"
-    uploading: "Uploading..."
-    uploaded: "Uploaded!"
+    upload: "Prześlij"
+    uploading: "Przesyłanie..."
+    uploaded: "Przesłane!"
 
     choose_topic:
-      none_found: "No topics found."
+      none_found: "Nie znaleziono tematów."
       title:
-        search: "Search for a Topic by name, url or id:"
-        placeholder: "type the topic title here"
+        search: "Szukaj tematu według nazwy, url albo id:"
+        placeholder: "tutaj napisz tytuł tematu"
 
     user_action:
-      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> posted <a href='{{topicUrl}}'>the topic</a>"
-      you_posted_topic: "<a href='{{userUrl}}'>You</a> posted <a href='{{topicUrl}}'>the topic</a>"
-      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
-      you_replied_to_post: "<a href='{{userUrl}}'>You</a> replied to <a href='{{postUrl}}'>{{post_number}}</a>"
-      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> replied to <a href='{{topicUrl}}'>the topic</a>"
-      you_replied_to_topic: "<a href='{{userUrl}}'>You</a> replied to <a href='{{topicUrl}}'>the topic</a>"
+      user_posted_topic: "<a href='{{userUrl}}'>{{user}}</a> umieścił <a href='{{topicUrl}}'>temat</a>"
+      you_posted_topic: "<a href='{{userUrl}}'>You</a> umieściłeś <a href='{{topicUrl}}'>temat</a>"
+      user_replied_to_post: "<a href='{{userUrl}}'>{{user}}</a> odpowiedział na <a href='{{postUrl}}'>{{post_number}}</a>"
+      you_replied_to_post: "<a href='{{userUrl}}'>You</a> odpowiedziałeś na <a href='{{postUrl}}'>{{post_number}}</a>"
+      user_replied_to_topic: "<a href='{{userUrl}}'>{{user}}</a> odpowiedział na <a href='{{topicUrl}}'>temat</a>"
+      you_replied_to_topic: "<a href='{{userUrl}}'>You</a> odpowiedziałeś na <a href='{{topicUrl}}'>temat</a>"
 
-      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>{{another_user}}</a>"
-      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> mentioned <a href='{{user2Url}}'>you</a>"
-      you_mentioned_user: "<a href='{{user1Url}}'>You</a> mentioned <a href='{{user2Url}}'>{{user}}</a>"
+      user_mentioned_user: "<a href='{{user1Url}}'>{{user}}</a> odniósł się do <a href='{{user2Url}}'>{{another_user}}</a>"
+      user_mentioned_you: "<a href='{{user1Url}}'>{{user}}</a> odniósł się do <a href='{{user2Url}}'>ciebie</a>"
+      you_mentioned_user: "<a href='{{user1Url}}'>You</a> odniosłeś się do <a href='{{user2Url}}'>{{user}}</a>"
 
-      posted_by_user: "Posted by <a href='{{userUrl}}'>{{user}}</a>"
-      posted_by_you: "Posted by <a href='{{userUrl}}'>you</a>"
-      sent_by_user: "Sent by <a href='{{userUrl}}'>{{user}}</a>"
-      sent_by_you: "Sent by <a href='{{userUrl}}'>you</a>"
+      posted_by_user: "Umieszczone przez <a href='{{userUrl}}'>{{user}}</a>"
+      posted_by_you: "Umieszczone przez <a href='{{userUrl}}'>ciebie</a>"
+      sent_by_user: "Wysłane przez <a href='{{userUrl}}'>{{user}}</a>"
+      sent_by_you: "Wysłane przez <a href='{{userUrl}}'>ciebie</a>"
 
     user_action_groups:
-      "1": "Likes Given"
-      "2": "Likes Received"
-      "3": "Bookmarks"
-      "4": "Topics"
-      "5": "Posts"
-      "6": "Replies"
-      "7": "Mentions"
-      "9": "Quotes"
-      "10": "Favorites"
-      "11": "Edits"
-      "12": "Sent Items"
-      "13": "Inbox"
+      "1": "Podobania oddane"
+      "2": "Podobania otrzymane"
+      "3": "Znaczniki"
+      "4": "Tematy"
+      "5": "Posty"
+      "6": "Odpowiedzi"
+      "7": "Odniesienia"
+      "9": "Cytowania"
+      "10": "Ulubione"
+      "11": "Edytowane"
+      "12": "Wysłane"
+      "13": "Otrzymane"
 
     user:
-      said: "{{username}} said:"
-      profile: "Profile"
-      show_profile: "Visit Profile"
-      mute: "Mute"
-      edit: "Edit Preferences"
-      download_archive: "download archive of my posts"
-      private_message: "Private Message"
-      private_messages: "Messages"
-      activity_stream: "Activity"
-      preferences: "Preferences"
-      bio: "About me"
-      invited_by: "Invited By"
-      trust_level: "Trust Level"
-      notifications: "Notifications"
-      dynamic_favicon: "Show incoming message notifications on favicon"
-      external_links_in_new_tab: "Open all external links in a new tab"
-      enable_quoting: "Enable quote reply for highlighted text"
-      change: "change"
-      moderator: "{{user}} is a moderator"
-      admin: "{{user}} is an admin"
-      deleted: "(deleted)"
+      said: "{{username}} powiedział:"
+      profile: "Profil"
+      show_profile: "Zobacz profil"
+      mute: "Wycisz"
+      edit: "Edytuj ustawienia"
+      download_archive: "Ściągnij archiwum moich postów"
+      private_message: "Wiadomość prywatna"
+      private_messages: "Wiadomości"
+      activity_stream: "Aktywności"
+      preferences: "Ustawienia"
+      bio: "O mnie"
+      invited_by: "Zaproszony przez"
+      trust_level: "Poziom zaufania"
+      notifications: "Zaproszenia"
+      dynamic_favicon: "Powiadamianie o wiadomości ikonką w polu adresowym przeglądarki"
+      external_links_in_new_tab: "Zewnętrzne strony otwierane w nowej karcie przeglądarki"
+      enable_quoting: "Cytowanie zaznaczonego tekstu w odpowiedzi"
+      change: "zmień"
+      moderator: "{{user}} jest moderatorem"
+      admin: "{{user}} jest administratorem"
+      deleted: "(usunięte)"
 
       messages:
-        all: "All"
-        mine: "Mine"
-        unread: "Unread"
+        all: "Wszystkie"
+        mine: "Moje"
+        unread: "Nieprzeczytane"
 
       change_password:
-        success: "(email sent)"
-        in_progress: "(sending email)"
-        error: "(error)"
-        action: "Send Password Reset Email"
+        success: "(email wysłany)"
+        in_progress: "(wysyłanie emaila)"
+        error: "(błąd)"
+        action: "Wyślij email resetujący hasło"
 
       change_about:
-        title: "Change About Me"
+        title: "Zmień informacje o mnie"
 
       change_username:
-        title: "Change Username"
-        confirm: "If you change your username, all prior quotes of your posts and @name mentions will be broken. Are you absolutely sure you want to?"
-        taken: "Sorry, that username is taken."
-        error: "There was an error changing your username."
-        invalid: "That username is invalid. It must only include numbers and letters"
+        title: "Zmiana nazwy użytkownika"
+        confirm: "Jeśli zmienisz nazwę użytkownika, cytowania twoich postów i odwołania przez @nazwę_użytkownika zostaną rozłączone. Czy masz ABSOLUTNĄ pewność, że tego chcesz?"
+        taken: "Niestety, ale ta nazwa jest juz zajęta."
+        error: "Wystąpił błąd w czasie zmiany nazwy użytkownika."
+        invalid: "Ta nazwa użytkownika jest niewłaściwa. Powinna składać się tylko z cyfr i liter."
 
       change_email:
-        title: "Change Email"
-        taken: "Sorry, that email is not available."
-        error: "There was an error changing your email. Perhaps that address is already in use?"
-        success: "We've sent an email to that address. Please follow the confirmation instructions."
+        title: "Zmiana adresu email"
+        taken: "Niestety, ten adres email jest niedostepny."
+        error: "Wystąpił błąd zmiany adresu email. Przypuszczalnie ten adres jest już używany."
+        success: "Wysłaliśmy email na ten adres. Proszę, postępuj według zawartej tam instrukcji potwierdzenia."
 
       change_avatar:
-        title: "Change your avatar"
+        title: "Zmiana twojego avatara"
         gravatar: "<a href='//gravatar.com/emails' target='_blank'>Gravatar</a>, based on"
-        gravatar_title: "Change your avatar on Gravatar's website"
-        uploaded_avatar: "Custom picture"
-        uploaded_avatar_empty: "Add a custom picture"
-        upload_title: "Upload your picture"
-        image_is_not_a_square: "Warning: we've cropped your image as it's not a square."
+        gravatar_title: "Zmiana twojego avatara na stronie Gravatar"
+        uploaded_avatar: "Zwykły obraz"
+        uploaded_avatar_empty: "Dodaj zwykły obraz"
+        upload_title: "Wyślij swój obraz"
+        image_is_not_a_square: "Uwaga: obcięliśmy twój obraz, ponieważ nie był kwadratowy."
 
       email:
         title: "Email"
-        instructions: "Your email will never be shown to the public."
-        ok: "Looks good. We will email you to confirm."
-        invalid: "Please enter a valid email address."
-        authenticated: "Your email has been authenticated by {{provider}}."
-        frequency: "We'll only email you if we haven't seen you recently and you haven't already seen the thing we're emailing you about."
+        instructions: "Twój email nigdy nie będzie publicznie udostępniany."
+        ok: "Wyglada dobrze. Wyślemy email w celu potwierdzenia."
+        invalid: "Proszę, wpisz poprawny adres email."
+        authenticated: "Twój email został uwierzytelniony przez {{provider}}."
+        frequency: "Wyślemy email jedynie wtedy, kiedy nie będziemy cię ostatnio widzieć i ty nie będziesz widział rzeczy o której piszemy."
 
       name:
-        title: "Name"
-        instructions: "The longer version of your name; does not need to be unique. Used for alternate @name matching and shown only on your user page."
-        too_short: "Your name is too short."
-        ok: "Your name looks good."
+        title: "Nazwa pełna"
+        instructions: "Dłuższa wesja twojej nazwy, nie musi być unikalna. Będzie widoczna tylko na twojej stronie użytkownika."
+        too_short: "Twoja nazwa jest za krótka."
+        ok: "Twoja nazwa jest w porządku."
       username:
-        title: "Username"
-        instructions: "Must be unique, no spaces. People can mention you as @username."
-        short_instructions: "People can mention you as @{{username}}."
-        available: "Your username is available."
-        global_match: "Email matches the registered username."
-        global_mismatch: "Already registered. Try {{suggestion}}?"
-        not_available: "Not available. Try {{suggestion}}?"
-        too_short: "Your username is too short."
-        too_long: "Your username is too long."
-        checking: "Checking username availability..."
-        enter_email: 'Username found. Enter matching email.'
+        title: "Nazwa użytkownika"
+        instructions: "Musi być unikalna, bez spacji. Będzie można odwoływać się do ciebie: @nazwa_użytkownika."
+        short_instructions: "Ludzie mogą odnosić się do ciebie jako @{{username}}."
+        available: "Twoja nazwa uzytkownika jest dostępna."
+        global_match: "Adres email pasuje do zarejestrowanej nazwy użytkownika."
+        global_mismatch: "Już jest zarejestrowana. Spróbuj {{suggestion}}?"
+        not_available: "Niedostępna. Spróbuj {{suggestion}}?"
+        too_short: "Twoja nazwa uzytkownika jest za krótka."
+        too_long: "Twoja nazwa uzytkownika jest za długa."
+        checking: "Sprawdzanie dostępności nazwy użytkownika..."
+        enter_email: 'Nazwa użytkownika znaleziona. Wpisz pasujący adres email.'
 
       password_confirmation:
-        title: "Password Again"
+        title: "Powtórzenie hasła"
 
-      last_posted: "Last Post"
-      last_emailed: "Last Emailed"
-      last_seen: "Last Seen"
-      created: "Created At"
-      log_out: "Log Out"
-      website: "Web Site"
+      last_posted: "Ostatnio napisany post"
+      last_emailed: "Ostatnio wysłany email"
+      last_seen: "Ostatnio widoczny"
+      created: "Utworzony"
+      log_out: "Wylogowanie"
+      website: "Strona"
       email_settings: "Email"
       email_digests:
-        title: "When I don't visit the site, send me an email digest of what's new"
-        daily: "daily"
-        weekly: "weekly"
-        bi_weekly: "every two weeks"
+        title: "Kiedy nie odwiedzam strony, wysyłaj mi email z zestawieniem nowych wpisów"
+        daily: "codziennie"
+        weekly: "co tydzień"
+        bi_weekly: "co dwa tygodnie"
 
-      email_direct: "Receive an email when someone quotes you, replies to your post, or mentions your @username"
-      email_private_messages: "Receive an email when someone sends you a private message"
-      email_always: "Receive email notifications and email digests even if I am active on the forum"
+      email_direct: "Otrzymywanie emaili, kiedy ktoś cytuje ciebie, odpowiada na twój post, wymienia twoją @nazwę_użytkownika"
+      email_private_messages: "Otrzymywanie emaili, kiedy ktoś wysyła ci prywatną wiadomość"
+      email_always: "Otrzymywanie przez email powiadomień i zestawień nawet jeśli jesteś na forum"
 
-      other_settings: "Other"
+      other_settings: "Inne"
 
       new_topic_duration:
-        label: "Consider topics new when"
-        not_viewed: "I haven't viewed them yet"
-        last_here: "they were posted since I was here last"
+        label: "Uznawaj tematy jako nowe, kiedy"
+        not_viewed: "jeszcze ich nie oglądałem"
+        last_here: "pojawiły się po twojej ostatniej obecności tutaj"
         after_n_days:
-          one: "they were posted in the last day"
-          other: "they were posted in the last {{count}} days"
+          one: "pojawiły się w ciągu ostatniego dnia"
+          other: "pojawiły się w ciągu ostatnich {{count}} dni"
         after_n_weeks:
-          one: "they were posted in the last week"
-          other: "they were posted in the last {{count}} week"
+          one: "pojawiły się w ciągu ostatniego tygodnia"
+          other: "pojawiły się w ciągu ostatnich {{count}} tygodni"
 
-      auto_track_topics: "Automatically track topics I enter"
+      auto_track_topics: "Automatycznie śledź tematy, do których wchodzę"
       auto_track_options:
-        never: "never"
-        always: "always"
+        never: "nigdy"
+        always: "zawsze"
         after_n_seconds:
-          one: "after 1 second"
-          other: "after {{count}} seconds"
+          one: "po 1 sekundzie"
+          other: "po {{count}} sekundach"
         after_n_minutes:
-          one: "after 1 minute"
-          other: "after {{count}} minutes"
+          one: "po 1 minucie"
+          other: "po {{count}} minutach"
 
       invited:
-        title: "Invites"
-        user: "Invited User"
-        none: "{{username}} hasn't invited any users to the site."
-        redeemed: "Redeemed Invites"
-        redeemed_at: "Redeemed At"
-        pending: "Pending Invites"
-        topics_entered: "Topics Entered"
-        posts_read_count: "Posts Read"
-        rescind: "Remove Invitation"
-        rescinded: "Invite removed"
-        time_read: "Read Time"
-        days_visited: "Days Visited"
-        account_age_days: "Account age in days"
+        title: "Zaproszenia"
+        user: "Zaproszony użytkownik"
+        none: "{{username}} nie zaprosił żadnych użytkowników na stronę."
+        redeemed: "Zaproszenia wykorzystane"
+        redeemed_at: "Wykorzystane"
+        pending: "Zaproszenia oczekujące"
+        topics_entered: "Wprowadzone tematy"
+        posts_read_count: "Przeczytane posty"
+        rescind: "Usuń zaproszenie"
+        rescinded: "Zaproszenie usunięte"
+        time_read: "Czas czytania"
+        days_visited: "Dni przeglądania"
+        account_age_days: "Wiek konta w dniach"
 
       password:
-        title: "Password"
-        too_short: "Your password is too short."
-        ok: "Your password looks good."
+        title: "Hasło"
+        too_short: "Twoje hasło jest za krótkie."
+        ok: "Twoje hasło jest w porządku."
 
       ip_address:
-        title: "Last IP Address"
+        title: "Ostatni adres IP"
       avatar:
         title: "Avatar"
       title:
-        title: "Title"
+        title: "Tytuł"
 
       filters:
-        all: "All"
+        all: "Wszystko"
 
       stream:
-        posted_by: "Posted by"
-        sent_by: "Sent by"
-        private_message: "private message"
-        the_topic: "the topic"
+        posted_by: "Umieszczone przez"
+        sent_by: "Wysłane przez"
+        private_message: "wiadomość prywatna"
+        the_topic: "temat"
 
-    loading: "Loading..."
-    close: "Close"
-    learn_more: "learn more..."
+    loading: "Ładowanie..."
+    close: "Zamknij"
+    learn_more: "poznaj więcej..."
 
-    year: 'year'
-    year_desc: 'topics posted in the last 365 days'
-    month: 'month'
-    month_desc: 'topics posted in the last 30 days'
-    week: 'week'
-    week_desc: 'topics posted in the last 7 days'
+    year: 'rok'
+    year_desc: 'tematy założone w ciągu ostatnich 365 dni'
+    month: 'miesiąc'
+    month_desc: 'tematy założone w ciągu ostatnich 30 dni'
+    week: 'tydzień'
+    week_desc: 'tematy założone w ciągu ostatnich 7 dni'
 
-    first_post: First post
-    mute: Mute
-    unmute: Unmute
-    last_post: Last post
+    first_post: Pierwszy post
+    mute: Wycisz
+    unmute: Wyłącz wyciszenie
+    last_post: Ostatni post
 
     best_of:
       title: "Best Of"
-      enabled_description: "You're viewing only the best posts in this topic. To see all posts again, click below."
-      description: "There are <b>{{count}}</b> posts in this topic. That's a lot! Would you like to save time by showing only the best posts?"
-      enable: 'Switch to "Best Of" view'
-      disable: 'Cancel "Best Of"'
+      enabled_description: "Widzisz tylko najlesze posty w tym temacie. Żeby zobaczyć wszystkie, kliknij poniżej."
+      description: "Jest <b>{{count}}</b> postów w tym temacie topic. To dużo! Czy chcesz zaoszczędzić czas oglądajac tylko najlepsze?"
+      enable: 'Przełącz na widok "Najlepsze"'
+      disable: 'Wyłącz widok "Najlepsze"'
 
     private_message_info:
-      title: "Private Message"
-      invite: "Invite Others..."
-      remove_allowed_user: "Do you really want to remove {{name}} from this private message?"
+      title: "Wiadomość prywatna"
+      invite: "Zaproś innych..."
+      remove_allowed_user: "Czy chcesz usunąć {{name}} z tej prywatnej wiadomości?"
 
     email: 'Email'
-    username: 'Username'
-    last_seen: 'Last Seen'
-    created: 'Created'
-    trust_level: 'Trust Level'
+    username: 'Nazwa użytkownika'
+    last_seen: 'Ostatnio widziany'
+    created: 'Utworzony'
+    trust_level: 'Poziom zaufania'
 
     create_account:
-      title: "Create Account"
-      action: "Create one now!"
-      invite: "Don't have an account yet?"
-      failed: "Something went wrong, perhaps this email is already registered, try the forgot password link"
+      title: "Utworzenie konta"
+      action: "Utwórz je teraz!"
+      invite: "Czy nie masz jeszcze konta?"
+      failed: "Nie udało się. Zapewne ten adres email jest już zarejestrowany. Spróbuj użyć odnośnik od zapomnienia hasła"
 
     forgot_password:
-      title: "Forgot Password"
-      action: "I forgot my password"
-      invite: "Enter your username or email address, and we'll send you a password reset email."
-      reset: "Reset Password"
-      complete: "If an account matches that username or email address, you should receive an email with instructions on how to reset your password shortly."
+      title: "Zapomnienie hasła"
+      action: "Zapomniałem moje hasło"
+      invite: "Wpisz swoją nazwę użytkownika albo adres email. Wyślemy ci email resetujący hasło."
+      reset: "Resetuj hasło"
+      complete: "Jeśli konto pasuje do tej nazwy użytkownika lub adresu email, niebawem powinieneś dostać email z instrukcją, jak zresetować twoje hasło."
 
     login:
-      title: "Log In"
+      title: "Logowanie"
       username: "Login"
       password: "Password"
-      email_placeholder: "email address or username"
-      error: "Unknown error"
-      reset_password: 'Reset Password'
-      logging_in: "Logging In..."
-      or: "Or"
-      authenticating: "Authenticating..."
-      awaiting_confirmation: "Your account is awaiting activation, use the forgot password link to issue another activation email."
-      awaiting_approval: "Your account has not been approved by a staff member yet. You will be sent an email when it is approved."
-      requires_invite: "Sorry, access to this forum is by invite only."
-      not_activated: "You can't log in yet. We previously sent an activation email to you at <b>{{sentTo}}</b>. Please follow the instructions in that email to activate your account."
-      resend_activation_email: "Click here to send the activation email again."
-      sent_activation_email_again: "We sent another activation email to you at <b>{{currentEmail}}</b>. It might take a few minutes for it to arrive; be sure to check your spam folder."
+      email_placeholder: "Adres email lub nazwa użytkownika"
+      error: "Błąd nieznany"
+      reset_password: 'Resetowanie hasła'
+      logging_in: "Logowanie..."
+      or: "Lub"
+      authenticating: "Uwierzytelnianie..."
+      awaiting_confirmation: "Twoje konto oczekuje aktywacji. Użyj odnośnik od zapomnienia hasła, żeby wygenerować kolejny email aktywacyjny."
+      awaiting_approval: "Twoje konto nie zostało jeszcze zatwierdzone. Otrzymasz stosowny email, kiedy zostanie zatwierdzone."
+      requires_invite: "Przepraszamy, dostęp do tego forum jest tylko przez zaproszenie."
+      not_activated: "Nie możesz się jeszcze zalogować. Wcześniej wysłaliśmy email aktywacyjny do ciebie na <b>{{sentTo}}</b>. Proszę, postępuj według instrukcji zawartych w tym emailu w celu uaktywnienia konta."
+      resend_activation_email: "Kliknij tu, żeby ponownie wysłać email aktywacyjny."
+      sent_activation_email_again: "Wysłaliśmy kolejny email aktywacyjny do ciebie na <b>{{currentEmail}}</b>. To może potrwać kilka minut do dotarcia. Sprawdź również swój folder ze spamem."
       google:
-        title: "with Google"
-        message: "Authenticating with Google (make sure pop up blockers are not enabled)"
+        title: "przez Google"
+        message: "Uwierzytelnianie przez Google (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       twitter:
-        title: "with Twitter"
-        message: "Authenticating with Twitter (make sure pop up blockers are not enabled)"
+        title: "przez Twitter"
+        message: "Uwierzytelnianie przez Twitter (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       facebook:
-        title: "with Facebook"
-        message: "Authenticating with Facebook (make sure pop up blockers are not enabled)"
+        title: "przez Facebook"
+        message: "Uwierzytelnianie przez Facebook (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       cas:
-        title: "Log In with CAS"
-        message: "Authenticating with CAS (make sure pop up blockers are not enabled)"
+        title: "przez CAS"
+        message: "Uwierzytelnianie przez CAS (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       yahoo:
-        title: "with Yahoo"
-        message: "Authenticating with Yahoo (make sure pop up blockers are not enabled)"
+        title: "przez Yahoo"
+        message: "Uwierzytelnianie przez Yahoo (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       github:
-        title: "with GitHub"
-        message: "Authenticating with GitHub (make sure pop up blockers are not enabled)"
+        title: "przez GitHub"
+        message: "Uwierzytelnianie przez GitHub (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
       persona:
-        title: "with Persona"
-        message: "Authenticating with Mozilla Persona (make sure pop up blockers are not enabled)"
+        title: "przez Persona"
+        message: "Uwierzytelnianie przez Mozilla Persona (upewnij się, że nie jest włączone blokowanie wyskakujących okien)"
 
     composer:
-      posting_not_on_topic: "Which topic do you want to reply to?"
-      saving_draft_tip: "saving"
-      saved_draft_tip: "saved"
-      saved_local_draft_tip: "saved locally"
-      similar_topics: "Your topic is similar to..."
-      drafts_offline: "drafts offline"
+      posting_not_on_topic: "Na który temat chcesz odpowiadać?"
+      saving_draft_tip: "zapisywanie"
+      saved_draft_tip: "zapisane"
+      saved_local_draft_tip: "zapisane lokalnie"
+      similar_topics: "Twój temat jest podobny do..."
+      drafts_offline: "wersja robocza offline"
 
       min_length:
-        need_more_for_title: "{{n}} to go for the title"
-        need_more_for_reply: "{{n}} to go for the post"
+        need_more_for_title: "{{n}} brak dla tytułu"
+        need_more_for_reply: "{{n}} brak dla postu"
 
       error:
-        title_missing: "Title is required."
-        title_too_short: "Title must be at least {{min}} characters long."
-        title_too_long: "Title must be less than {{max}} characters long."
-        post_missing: "Post can't be empty."
-        post_length: "Post must be at least {{min}} characters long."
-        category_missing: "You must choose a category."
+        title_missing: "Tytuł jest wymagany."
+        title_too_short: "Tytuł musi mieć przynajmniej {{min}} znaków."
+        title_too_long: "Title musi mieć mniej niż {{max}} znaków."
+        post_missing: "Post nie może być pusty."
+        post_length: "Post musi mieć przynajmniej {{min}} znaków."
+        category_missing: "Musisz wybrać kategorię."
 
-      save_edit: "Save Edit"
-      reply_original: "Reply on Original Topic"
-      reply_here: "Reply Here"
-      reply: "Reply"
-      cancel: "Cancel"
-      create_topic: "Create Topic"
-      create_pm: "Create Private Message"
+      save_edit: "Zapisz edytowane"
+      reply_original: "Odpowiedz na pierwotny temat"
+      reply_here: "Odpowiedz tutaj"
+      reply: "Odpowiedz"
+      cancel: "Usuń"
+      create_topic: "Utwórz temat"
+      create_pm: "Utwórz wiadomość prywatną"
 
-      users_placeholder: "Add a user"
-      title_placeholder: "Type your title here. What is this discussion about in one brief sentence?"
-      reply_placeholder: "Type here. Use Markdown or BBCode to format. Drag or paste an image to upload it."
-      view_new_post: "View your new post."
-      saving: "Saving..."
-      saved: "Saved!"
-      saved_draft: "You have a post draft in progress. Click anywhere in this box to resume editing."
-      uploading: "Uploading..."
-      show_preview: 'show preview &raquo;'
-      hide_preview: '&laquo; hide preview'
+      users_placeholder: "Dodaj użytkownika"
+      title_placeholder: "Tutaj napisz swój tytuł, czego ma dotyczyć dyskusja w krótkim zdaniu."
+      reply_placeholder: "Pisz tutaj. Do formatowania możesz używać Markdown albo BBCode. Żeby wysłać obraz, przeciągnij lub wklej go."
+      view_new_post: "Zobacz swój nowy post."
+      saving: "Zapisywanie..."
+      saved: "Zapisane!"
+      saved_draft: "Masz wersję roboczą postu. Kliknij gdziekolwiek na tym polu, żeby wznowić edytowanie."
+      uploading: "Wysyłanie..."
+      show_preview: 'pokaż podgląd &raquo;'
+      hide_preview: '&laquo; ukryj podgląd'
 
-      quote_post_title: "Quote whole post"
-      bold_title: "Strong"
-      bold_text: "strong text"
-      italic_title: "Emphasis"
-      italic_text: "emphasized text"
-      link_title: "Hyperlink"
-      link_description: "enter link description here"
-      link_dialog_title: "Insert Hyperlink"
-      link_optional_text: "optional title"
-      quote_title: "Blockquote"
-      quote_text: "Blockquote"
-      code_title: "Preformatted text"
-      code_text: "enter preformatted text here"
+      quote_post_title: "Cytuj cały post"
+      bold_title: "Pogrubienie"
+      bold_text: "trkst pogrubiony"
+      italic_title: "Kursywa"
+      italic_text: "tekst pochylony"
+      link_title: "Hiperłącze"
+      link_description: "tutaj wpisz opis odnośnika"
+      link_dialog_title: "Umieść hiperłącze"
+      link_optional_text: "tytuł opcjonalny"
+      quote_title: "Cytat"
+      quote_text: "Cytat"
+      code_title: "Tekst sformatowany"
+      code_text: "tutaj wpisz teks sformatowany"
       upload_title: "Upload"
-      upload_description: "enter upload description here"
-      olist_title: "Numbered List"
-      ulist_title: "Bulleted List"
-      list_item: "List item"
-      heading_title: "Heading"
-      heading_text: "Heading"
-      hr_title: "Horizontal Rule"
-      undo_title: "Undo"
-      redo_title: "Redo"
-      help: "Markdown Editing Help"
-      toggler: "hide or show the composer panel"
+      upload_description: "tutaj wpisz opis uploadu"
+      olist_title: "Lista numerowana"
+      ulist_title: "Lista punktowana"
+      list_item: "Element listy"
+      heading_title: "Nagłówek"
+      heading_text: "Nagłówek"
+      hr_title: "Linia"
+      undo_title: "Cofnięcie"
+      redo_title: "Ponowne wykonanie"
+      help: "Pomoc edytowania Markdown"
+      toggler: "ukryj lub pokaż panel"
 
       admin_options_title: "Optional staff settings for this topic"
       auto_close_label: "Auto-close topic after:"
